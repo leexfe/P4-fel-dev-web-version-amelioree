@@ -1412,7 +1412,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #23527c;
+    /* color: #23527c; */
     text-decoration: underline
 }
 
@@ -4844,7 +4844,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    /* padding: 10px 15px */
 }
 
 .nav>li>a:focus,
@@ -5286,10 +5286,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-nav>li {
         float: left
     }
-    .navbar-nav>li>a {
+    /* .navbar-nav>li>a {
         padding-top: 15px;
         padding-bottom: 15px
-    }
+    } */
 }
 
 .navbar-form {
