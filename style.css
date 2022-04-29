@@ -32,13 +32,13 @@ a:hover {
 .effect-hover-accueil{
   background-color: transparent;
   margin-right:100px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 25px;
 }
 .effect-hover-accueil:hover{
   margin-right:100px;
   background-color: #e2e2e2;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 25px;
   transition: all 200ms ease-in-out;
 }
