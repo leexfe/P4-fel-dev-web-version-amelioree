@@ -29,8 +29,12 @@ a:hover {
 
 /*##################################### rectifications ##################################### */
 
+.image-resize-logo-panthere{
+  width: 100px;
+  height: 100px;
+}
+
 .effect-hover-accueil {
-  
   margin-right: 100px;
   padding: 5px 15px;
   background-color: #ff7a7a;
