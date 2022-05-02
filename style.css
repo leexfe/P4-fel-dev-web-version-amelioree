@@ -32,7 +32,7 @@ a:hover {
 .effect-hover-accueil {
   margin-right: 100px;
   padding: 5px 15px;
-  background-color: #ff793a;
+  background-color: #ff7a7a;
   border-radius: 25px;
 }
 
@@ -43,12 +43,10 @@ a:hover {
 
 .effect-hover-page2 {
   padding: 5px 15px;
-  background-color: #ff793a;
+  background-color: #ff7a7a;
   border-radius: 25px;
 }
 .effect-hover-page2:hover {
-  
-  background-color: #b43c3c;
   border-radius: 25px;
 }
 
@@ -408,11 +406,6 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
-}
-
-.nav > li a:hover,
-.nav > li a:focus {
-  /* background: transparent; */
 }
 
 .navbar-toggle {
@@ -850,7 +843,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #ff793a;
+  background-color: #ff7a7a;
 }
 
 .tc-white {
@@ -862,7 +855,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #ff793a;
+  background: #ff7a7a;
   color: #000000 !important;
 }
 
@@ -983,7 +976,7 @@ h4 {
     margin-top: 5px;
     width: 86px;
     padding: 5px 15px;
-    background-color: #ff793a;
+    background-color: #ff7a7a;
   }
 
   .effect-hover-accueil:hover {
@@ -995,12 +988,11 @@ h4 {
     margin-top: 5px;
     width: 86px;
     padding: 5px 15px;
-    background-color: #ff793a;
+    background-color: #ff7a7a;
     border-radius: 25px;
     margin-bottom: 5px;
   }
   .effect-hover-page2:hover {
-    
     border-radius: 25px;
   }
 
