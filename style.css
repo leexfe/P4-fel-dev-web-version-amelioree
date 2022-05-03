@@ -980,8 +980,9 @@ h4 {
 /* ############################################################################################################### */
 @media (max-width: 767px) {
   .effect-hover-accueil {
+    text-align: center;
     margin-top: 5px;
-    width: 86px;
+    width: 90px;
     padding: 5px 15px;
     background-color: #ff7a7a;
   }
@@ -992,8 +993,9 @@ h4 {
   }
 
   .effect-hover-page2 {
+    text-align: center;
     margin-top: 5px;
-    width: 86px;
+    width: 90px;
     padding: 5px 15px;
     background-color: #ff7a7a;
     border-radius: 25px;
