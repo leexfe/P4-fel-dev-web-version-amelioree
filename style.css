@@ -28,6 +28,10 @@ a:hover {
 }
 
 /*##################################### rectifications ##################################### */
+.size-text-logo{
+  width: 217px;
+  height: 40px;
+}
 
 .image-resize-logo-panthere{
   width: 100px;
@@ -105,6 +109,11 @@ a:hover {
 
 .rectif-footer-color-text {
   color: rgb(0, 0, 0) !important;
+}
+
+.img-size-portfolio{
+  width: 270px;
+  height: 270px;
 }
 
 /* #####################################  fin rectifications #####################################  */
@@ -979,6 +988,12 @@ h4 {
 
 /* ############################################################################################################### */
 @media (max-width: 767px) {
+
+  .img-size-portfolio{
+    width: 320px;
+    height: 320px;
+  }
+
   .effect-hover-accueil {
     text-align: center;
     margin-top: 5px;
