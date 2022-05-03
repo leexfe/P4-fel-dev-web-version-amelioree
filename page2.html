@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="robots" content="index, follow">
 
+  <!-- <link rel="preload" as="font"> -->
   <link rel="shortcut icon" type="image/png" href="favicon.jpg">
   <!-- page css mal connecté bootstrap.min.css n'existe pas  -->
   <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"> -->
@@ -18,10 +19,11 @@
   <!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css"> -->
   <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="./css/et-line.css">
+  <link rel="preload" as="font">
 
 
-  <script defer src="./js/jquery-2.1.0.js"></script>
-  <script async src="./js/bootstrap.js"></script>
+  <script async src="./js/jquery-2.1.0.js"></script>
+  <script defer src="./js/bootstrap.js"></script>
   <script defer src="./js/blocs.js"></script>
   <script defer src="./js/jqBootstrapValidation.js"></script>
   <!-- <script defer src="./js/formHandler.js" ></script>   -->
@@ -37,10 +39,10 @@
 
 <body>
   <!-- Principal conteneur -->
-  <div class="page-container">
+  <main class="page-container">
 
     <!-- bloc-0 -->
-    <div class="bloc bgc-white l-bloc " id="bloc-0">
+    <header class="bloc bgc-white l-bloc " id="bloc-0">
       <div class="container bloc-sm">
         <nav class="navbar row">
           <div class="navbar-header">
@@ -63,8 +65,6 @@
                 </a>
               </li>
               <li>
-              </li>
-              <li>
                 <a class="effect-hover-page2" href="page2.html">
                   <div><b>Contact</b></div>
                 </a>
@@ -73,11 +73,11 @@
           </div>
         </nav>
       </div>
-    </div>
+    </header>
     <!-- bloc-0 END -->
 
     <!-- bloc-6 -->
-    <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+    <section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
       <div class="container bloc-lg">
         <div class="row">
           <div class="col-sm-12">
@@ -91,11 +91,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- bloc-6 END -->
 
     <!-- bloc-7 -->
-    <div class="bloc bgc-white l-bloc" id="bloc-7">
+    <section class="bloc bgc-white l-bloc" id="bloc-7">
       <div class="container bloc-lg ">
         <div class="row rectif-flex-center">
           <div class="col-sm-6">
@@ -136,7 +136,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- bloc-7 END -->
 
     <!-- ScrollToTop Button -->
@@ -146,7 +146,7 @@
 
 
     <!-- Footer - bloc-8 -->
-    <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+    <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
       <div class="container bloc-sm">
         <div class="row">
           <div class="col-sm-12">
@@ -178,10 +178,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
     <!-- Footer - bloc-8 END -->
 
-  </div>
+  </main>
   <!-- Principal conteneur END -->
 
 
