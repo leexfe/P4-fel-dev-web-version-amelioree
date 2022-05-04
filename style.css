@@ -1147,6 +1147,7 @@ h4 {
   .voffset-lg {
     margin-top: 30px;
   }
+  
   form {
     padding: 5px;
   }
@@ -1166,7 +1167,7 @@ h4 {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 510px) {
   .navbar-brand img {
     max-height: 40px;
     width: auto;
