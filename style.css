@@ -685,7 +685,7 @@ a[data-lightbox]:hover img {
   background: rgba(0, 0, 0, 0.5);
   border: none;
   line-height: 30px;
-  padding: 0 9px 5px;
+  padding: 5px 9px;
   opacity: 0.3;
 }
 
@@ -710,12 +710,12 @@ a[data-lightbox]:hover img {
 
 .next-lightbox {
   padding: 6px 8px 1px 13px;
-  right: 25px;
+  right: 20px;
 }
 
 .prev-lightbox {
   padding: 6px 13px 1px 10px;
-  left: 25px;
+  left: 20px;
 }
 
 .snapshot-lb .modal-body {
@@ -914,7 +914,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.jpg");
+  background-image: url("img/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
