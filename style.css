@@ -28,17 +28,17 @@ a:hover {
 }
 
 /*##################################### rectifications ##################################### */
-.size-text-logo{
-  width: 217px;
+.size-text-logo {
+  width: 402px;
   height: 74px;
 }
 
-.rectif-container-navbar{
+.rectif-container-navbar {
   margin-left: 0;
   padding: 20px 0;
 }
 
-.image-resize-logo-panthere{
+.image-resize-logo-panthere {
   width: 100px;
   height: 100px;
 }
@@ -116,7 +116,7 @@ a:hover {
   color: rgb(0, 0, 0) !important;
 }
 
-.img-size-portfolio{
+.img-size-portfolio {
   width: 270px;
   height: 270px;
 }
@@ -328,7 +328,6 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, 1);
-
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -400,7 +399,7 @@ a:hover {
 
 .navbar-brand img {
   height: 74px;
-  width: auto;
+  width: 402px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -992,8 +991,7 @@ h4 {
 
 /* ############################################################################################################### */
 @media (max-width: 767px) {
-
-  .img-size-portfolio{
+  .img-size-portfolio {
     width: 320px;
     height: 320px;
   }
@@ -1101,7 +1099,7 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height:74px;
+    max-height: 74px;
     width: auto;
   }
   .nav-invert .navbar-header {
