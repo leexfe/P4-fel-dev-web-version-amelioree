@@ -30,7 +30,12 @@ a:hover {
 /*##################################### rectifications ##################################### */
 .size-text-logo{
   width: 217px;
-  height: 40px;
+  height: 74px;
+}
+
+.rectif-container-navbar{
+  margin-left: 0;
+  padding: 20px 0;
 }
 
 .image-resize-logo-panthere{
@@ -394,9 +399,8 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-height: 200px;
-  margin: 0 5px 0 0;
-  display: inline;
+  height: 74px;
+  width: auto;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -1097,7 +1101,7 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 40px;
+    max-height:74px;
     width: auto;
   }
   .nav-invert .navbar-header {
