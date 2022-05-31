@@ -917,7 +917,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.avif");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1147,7 +1147,7 @@ h4 {
   .voffset-lg {
     margin-top: 30px;
   }
-  
+
   form {
     padding: 5px;
   }
@@ -1166,21 +1166,18 @@ h4 {
   }
 }
 
-
 @media (max-width: 510px) {
   .navbar-brand img {
     max-height: 40px;
     width: auto;
+  }
 }
-}
-
 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 @media (max-width: 767px) {
