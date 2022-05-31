@@ -460,10 +460,10 @@ a:hover {
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
-  .nav > li .dropdown-menu a,
+  /* .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
-    /* color: #484848; */
-  }
+     color: #484848; 
+  } */
   .nav-invert .site-navigation {
     left: 0;
     right: 0;
